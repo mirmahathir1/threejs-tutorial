@@ -6,13 +6,9 @@ Demos following the [three.js manual](https://threejs.org/manual/). Run `npx vit
 
 [1_creating_a_scene/](1_creating_a_scene/) · [manual](https://threejs.org/manual/#creating-a-scene)
 
-<video src="1_creating_a_scene/1_creating_a_scene.mp4" controls></video>
-
 ## 2. Creating text
 
 [2_creating_text/](2_creating_text/) · [manual](https://threejs.org/manual/#creating-text)
-
-<video src="2_creating_text/2_creating_text.mp4" controls></video>
 
 ## 3. Drawing lines
 
@@ -23,5 +19,3 @@ Demos following the [three.js manual](https://threejs.org/manual/). Run `npx vit
 ## 4. Loading 3D models
 
 [4_loading_3d_models/](4_loading_3d_models/) · [manual](https://threejs.org/manual/#loading-3d-models)
-
-<video src="4_loading_3d_models/4_loading_3d_models.mp4" controls></video>

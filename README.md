@@ -1,6 +1,6 @@
 # three.js tutorial
 
-Demos follow the [three.js manual](https://threejs.org/manual/). Run `npx vite` and open a demo folder with a trailing slash, e.g. http://localhost:5173/1_creating_a_scene/.
+My demos follow the [three.js manual](https://threejs.org/manual/). 
 
 ## 1. Creating a scene
 
@@ -29,3 +29,5 @@ https://github.com/user-attachments/assets/27997810-0b2a-4b92-8b2b-b187cb0d7f65
 ## 5. Animation system
 
 [5_animation_system/](5_animation_system/) · [manual](https://threejs.org/manual/#animation-system)
+
+https://github.com/user-attachments/assets/81aed116-2414-41b6-b7dd-5459cd9c2a46

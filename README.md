@@ -13,3 +13,9 @@ Demos following the [three.js manual](https://threejs.org/manual/). Run `npx vit
 [2_creating_text.html](2_creating_text.html) · [manual](https://threejs.org/manual/#creating-text)
 
 <video src="doc/videos/2_creating_text.mp4" controls></video>
+
+## 3. Drawing lines
+
+[3_drawing_lines.html](3_drawing_lines.html) · [manual](https://threejs.org/manual/#drawing-lines)
+
+![Drawing lines](doc/videos/3_drawing_lines.png)

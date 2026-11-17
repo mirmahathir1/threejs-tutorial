@@ -1,21 +1,27 @@
 # three.js tutorial
 
-Demos following the [three.js manual](https://threejs.org/manual/). Run `npx vite` and open each page by name.
+Demos following the [three.js manual](https://threejs.org/manual/). Run `npx vite` and open a demo folder with a trailing slash, e.g. http://localhost:5173/1_creating_a_scene/.
 
 ## 1. Creating a scene
 
-[1_creating_a_scene.html](1_creating_a_scene.html) · [manual](https://threejs.org/manual/#creating-a-scene)
+[1_creating_a_scene/](1_creating_a_scene/) · [manual](https://threejs.org/manual/#creating-a-scene)
 
-<video src="doc/videos/1_creating_a_scene.mp4" controls></video>
+<video src="1_creating_a_scene/1_creating_a_scene.mp4" controls></video>
 
 ## 2. Creating text
 
-[2_creating_text.html](2_creating_text.html) · [manual](https://threejs.org/manual/#creating-text)
+[2_creating_text/](2_creating_text/) · [manual](https://threejs.org/manual/#creating-text)
 
-<video src="doc/videos/2_creating_text.mp4" controls></video>
+<video src="2_creating_text/2_creating_text.mp4" controls></video>
 
 ## 3. Drawing lines
 
-[3_drawing_lines.html](3_drawing_lines.html) · [manual](https://threejs.org/manual/#drawing-lines)
+[3_drawing_lines/](3_drawing_lines/) · [manual](https://threejs.org/manual/#drawing-lines)
 
-![Drawing lines](doc/videos/3_drawing_lines.png)
+![Drawing lines](3_drawing_lines/3_drawing_lines.png)
+
+## 4. Loading 3D models
+
+[4_loading_3d_models/](4_loading_3d_models/) · [manual](https://threejs.org/manual/#loading-3d-models)
+
+<video src="4_loading_3d_models/4_loading_3d_models.mp4" controls></video>

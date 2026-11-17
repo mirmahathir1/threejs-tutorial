@@ -10,7 +10,7 @@
 // In order for this to work, however, your TextGeometry will need an instance
 // of THREE.Font to be set on its "font" parameter.
 //
-// Everything else is the same as 1_creating_a_scene.js, with the cube replaced
+// Everything else is the same as 1_creating_a_scene/main.js, with the cube replaced
 // by text.
 
 import * as THREE from 'three';

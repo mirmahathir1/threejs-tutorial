@@ -25,3 +25,7 @@ https://github.com/user-attachments/assets/cdf9270c-00b0-4b44-9798-c6807063df2b
 [4_loading_3d_models/](4_loading_3d_models/) · [manual](https://threejs.org/manual/#loading-3d-models)
 
 https://github.com/user-attachments/assets/27997810-0b2a-4b92-8b2b-b187cb0d7f65
+
+## 5. Animation system
+
+[5_animation_system/](5_animation_system/) · [manual](https://threejs.org/manual/#animation-system)

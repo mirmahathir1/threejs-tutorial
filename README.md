@@ -31,3 +31,11 @@ https://github.com/user-attachments/assets/27997810-0b2a-4b92-8b2b-b187cb0d7f65
 [5_animation_system/](5_animation_system/) · [manual](https://threejs.org/manual/#animation-system)
 
 https://github.com/user-attachments/assets/81aed116-2414-41b6-b7dd-5459cd9c2a46
+
+## 6. Color management
+
+[6_color_management/](6_color_management/) · [manual](https://threejs.org/manual/#color-management)
+
+## 7. How to dispose of objects
+
+[7_how_to_dispose_of_objects/](7_how_to_dispose_of_objects/) · [manual](https://threejs.org/manual/#how-to-dispose-of-objects)

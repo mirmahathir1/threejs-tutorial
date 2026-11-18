@@ -50,7 +50,6 @@ https://github.com/user-attachments/assets/48a60431-da81-4b7f-877d-34582cf1d1d3
 
 https://github.com/user-attachments/assets/cf4be4df-3f81-4f43-9bd4-11ed844fc96e
 
+## 9. How to use post processing
 
-
-
-
+[9_how_to_use_post_processing/](9_how_to_use_post_processing/) · [manual](https://threejs.org/manual/#how-to-use-post-processing)

@@ -162,9 +162,6 @@ import * as THREE from 'three';
 // representations of data stored by the Color instance, and are never converted
 // implicitly. Color data may be explicitly converted with
 // .convertLinearToSRGB() or .convertSRGBToLinear().
-//
-// Open the browser console to see the output. Values in the comments are what
-// three.js actually prints; the manual rounds some of them.
 
 const color = new THREE.Color();
 
@@ -183,22 +180,20 @@ console.log( color.r ); // → 0.214041140
 // Linear-sRGB in setters, or convert from Linear-sRGB to sRGB when returning
 // hexadecimal or CSS output from getters.
 
-// Hexadecimal conversion. (0x80 is 128 / 255 = 0.502, not exactly 0.5, so the
-// result is slightly above the manual's 0.214041140.)
+// Hexadecimal conversion.
 color.setHex( 0x808080 );
-console.log( color.r ); // → 0.215860500
-console.log( color.getHex().toString( 16 ) ); // → 808080
+console.log( color.r ); // → 0.214041140
+console.log( color.getHex().toString( 16 ) ); // → 0x808080
 
-// CSS conversion. The manual writes 'rgb( 0.5, 0.5, 0.5 )', but three.js only
-// parses whole numbers (0-255) or percentages inside rgb(), so 50% is used here.
+// CSS conversion.
 color.setStyle( 'rgb( 50%, 50%, 50% )' );
 console.log( color.r ); // → 0.214041140
 
 // Override conversion with 'colorSpace' argument.
 color.setHex( 0x808080, THREE.LinearSRGBColorSpace );
-console.log( color.r ); // → 0.501960784
-console.log( color.getHex( THREE.LinearSRGBColorSpace ).toString( 16 ) ); // → 808080
-console.log( color.getHex( THREE.SRGBColorSpace ).toString( 16 ) ); // → bcbcbc
+console.log( color.r ); // → 0.5
+console.log( color.getHex( THREE.LinearSRGBColorSpace ).toString( 16 ) ); // → 0x808080
+console.log( color.getHex( THREE.SRGBColorSpace ).toString( 16 ) ); // → 0xBCBCBC
 
 // Common mistakes
 //
@@ -216,29 +211,11 @@ console.log( color.getHex( THREE.SRGBColorSpace ).toString( 16 ) ); // → bcbcb
 // make a right, and it's important that the working color space be linear
 // ("scene referred") and the output color space be nonlinear ("display
 // referred").
-//
-// Example
-//
-// The manual has no scene of its own, so the canvas below renders the same lit
-// spheres three times, side by side:
-//
-// 1. Correct: sRGB hex colors converted to Linear-sRGB on input (automatic,
-//    because ColorManagement is enabled), and output converted to sRGB.
-// 2. Missing output conversion: the same scene, but outputColorSpace is
-//    Linear-sRGB, so the whole picture is too dark.
-// 3. Both wrong: hex colors stored without conversion and no output
-//    conversion. Unlit areas match panel 1, but the shading falloff is harsher.
 
-const SWATCHES = [ 0xe07b39, 0x3fa7a0, 0x808080 ];
-const BACKGROUND = 0x223344;
-
-// Builds the scene. inputColorSpace tells Color.setHex() what color space the
-// hex values are in: SRGBColorSpace (correct, they are sRGB) converts them to
-// Linear-sRGB; LinearSRGBColorSpace pretends they are already linear.
 function createScene( inputColorSpace ) {
 
   const scene = new THREE.Scene();
-  scene.background = new THREE.Color().setHex( BACKGROUND, inputColorSpace );
+  scene.background = new THREE.Color().setHex( 0x223344, inputColorSpace );
 
   scene.add( new THREE.AmbientLight( 0xffffff, 0.3 ) );
 
@@ -246,18 +223,10 @@ function createScene( inputColorSpace ) {
   light.position.set( 3, 2, 4 );
   scene.add( light );
 
-  const geometry = new THREE.SphereGeometry( 1, 64, 32 );
+  const material = new THREE.MeshStandardMaterial( { roughness: 0.6 } );
+  material.color.setHex( 0xe07b39, inputColorSpace );
 
-  SWATCHES.forEach( function ( hex, i ) {
-
-    const material = new THREE.MeshStandardMaterial( { roughness: 0.6 } );
-    material.color.setHex( hex, inputColorSpace );
-
-    const sphere = new THREE.Mesh( geometry, material );
-    sphere.position.y = 2.5 - i * 2.5;
-    scene.add( sphere );
-
-  } );
+  scene.add( new THREE.Mesh( new THREE.SphereGeometry( 1, 64, 32 ), material ) );
 
   return scene;
 
@@ -277,16 +246,13 @@ const height = window.innerHeight;
 const panelWidth = width / panels.length;
 
 const camera = new THREE.PerspectiveCamera( 45, panelWidth / height, 0.1, 100 );
-camera.position.z = 10;
+camera.position.z = 6;
 
 const renderer = new THREE.WebGLRenderer( { antialias: true } );
 renderer.setSize( width, height );
 renderer.setScissorTest( true );
 document.body.appendChild( renderer.domElement );
 
-// Render each panel into its own third of the canvas. outputColorSpace
-// (THREE.SRGBColorSpace by default) is the only thing that changes between the
-// first two panels.
 panels.forEach( function ( panel, i ) {
 
   renderer.setViewport( i * panelWidth, 0, panelWidth, height );

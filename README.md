@@ -36,6 +36,8 @@ https://github.com/user-attachments/assets/81aed116-2414-41b6-b7dd-5459cd9c2a46
 
 [6_color_management/](6_color_management/) · [manual](https://threejs.org/manual/#color-management)
 
+![Color management](6_color_management/6_color_management.png)
+
 ## 7. How to dispose of objects
 
 [7_how_to_dispose_of_objects/](7_how_to_dispose_of_objects/) · [manual](https://threejs.org/manual/#how-to-dispose-of-objects)

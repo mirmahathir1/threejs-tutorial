@@ -39,3 +39,9 @@ https://github.com/user-attachments/assets/81aed116-2414-41b6-b7dd-5459cd9c2a46
 ## 7. How to dispose of objects
 
 [7_how_to_dispose_of_objects/](7_how_to_dispose_of_objects/) · [manual](https://threejs.org/manual/#how-to-dispose-of-objects)
+
+https://github.com/user-attachments/assets/48a60431-da81-4b7f-877d-34582cf1d1d3
+
+
+
+

@@ -6,10 +6,16 @@
     <style>
       body { margin: 0; }
       #info { position: absolute; inset: 0; display: flex; align-items: center; justify-content: center; color: #fff; font: 24px sans-serif; background: rgba(0, 0, 0, 0.5); cursor: pointer; }
+      button { padding: 8px 16px; font: 16px sans-serif; color: #fff; background: rgba(0, 0, 0, 0.6); border: 1px solid rgba(255, 255, 255, 0.4); border-radius: 6px; cursor: pointer; }
+      #day-night { position: absolute; top: 16px; right: 16px; z-index: 1; }
+      #walk-controls { position: absolute; bottom: 24px; left: 50%; transform: translateX(-50%); z-index: 1; display: flex; gap: 12px; }
+      #walk-controls button { padding: 12px 28px; user-select: none; touch-action: none; }
     </style>
   </head>
   <body>
-    <div id="info">Click to play<br>WASD to move, Space/Shift to fly up/down, Mouse to look</div>
+    <div id="info">Click to play<br>WASD to move, Space/Shift to fly up/down, Mouse to look, N to toggle day/night<br>Or hold Walk / Back to move</div>
+    <button id="day-night">Night</button>
+    <div id="walk-controls"><button id="walk">Walk</button><button id="back">Back</button></div>
     <script type="module" src="./main.js"></script>
   </body>
 </html>

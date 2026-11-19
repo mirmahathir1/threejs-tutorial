@@ -54,7 +54,7 @@ const loader = new GLTFLoader();
 // Holds the loaded model so animate() can rotate it.
 let duck;
 
-loader.load( '/4_loading_3d_models/Duck.glb', function ( gltf ) {
+loader.load( '/threejsmanual/4_loading_3d_models/Duck.glb', function ( gltf ) {
 
   duck = gltf.scene;
   scene.add( duck );

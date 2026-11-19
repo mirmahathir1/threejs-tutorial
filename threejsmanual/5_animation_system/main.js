@@ -120,7 +120,7 @@ let mixer;
 // stored as morph targets, with a single clip named 'parrot_A_'.
 const loader = new GLTFLoader();
 
-loader.load( '/5_animation_system/Parrot.glb', function ( gltf ) {
+loader.load( '/threejsmanual/5_animation_system/Parrot.glb', function ( gltf ) {
 
   const parrot = gltf.scene;
 

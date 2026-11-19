@@ -798,10 +798,42 @@ window.addEventListener( 'keydown', ( e ) => {
 
 const controls = new PointerLockControls( camera, document.body );
 const info = document.getElementById( 'info' );
-info.addEventListener( 'click', () => controls.lock() );
-renderer.domElement.addEventListener( 'click', () => controls.lock() );
+let pointerType = 'mouse';
+window.addEventListener( 'pointerdown', ( e ) => pointerType = e.pointerType, true );
+const play = () => pointerType === 'mouse' ? controls.lock() : info.style.display = 'none';
+info.addEventListener( 'click', play );
+renderer.domElement.addEventListener( 'click', play );
 controls.addEventListener( 'lock', () => info.style.display = 'none' );
 controls.addEventListener( 'unlock', () => info.style.display = 'flex' );
+
+const touchLook = { id: null, x: 0, y: 0 };
+const touchSpeed = 0.005;
+const lookEuler = new THREE.Euler( 0, 0, 0, 'YXZ' );
+const endTouchLook = ( e ) => {
+
+  if ( e.pointerId === touchLook.id ) touchLook.id = null;
+
+};
+
+renderer.domElement.addEventListener( 'pointerdown', ( e ) => {
+
+  if ( e.pointerType === 'mouse' || touchLook.id !== null ) return;
+  renderer.domElement.setPointerCapture( e.pointerId );
+  Object.assign( touchLook, { id: e.pointerId, x: e.clientX, y: e.clientY } );
+
+} );
+renderer.domElement.addEventListener( 'pointermove', ( e ) => {
+
+  if ( e.pointerId !== touchLook.id ) return;
+  lookEuler.setFromQuaternion( camera.quaternion );
+  lookEuler.y -= ( e.clientX - touchLook.x ) * touchSpeed;
+  lookEuler.x = THREE.MathUtils.clamp( lookEuler.x - ( e.clientY - touchLook.y ) * touchSpeed, - Math.PI / 2, Math.PI / 2 );
+  camera.quaternion.setFromEuler( lookEuler );
+  Object.assign( touchLook, { x: e.clientX, y: e.clientY } );
+
+} );
+renderer.domElement.addEventListener( 'pointerup', endTouchLook );
+renderer.domElement.addEventListener( 'pointercancel', endTouchLook );
 
 const keys = { KeyW: 0, KeyA: 0, KeyS: 0, KeyD: 0, Space: 0, ShiftLeft: 0, ShiftRight: 0, Walk: 0, Back: 0 };
 window.addEventListener( 'keydown', ( e ) => keys[ e.code ] = 1 );

@@ -2,6 +2,12 @@
 
 My demos follow the [three.js manual](https://threejs.org/manual/). 
 
+## Floor plans
+
+[floor-plans/](floor-plans/) · [live demo](https://threejs-seven-wheat.vercel.app/floor-plans/) · [video demo](https://youtu.be/oI1bb07eZ9s)
+
+[![Floor plans](floor-plans/floor-plans.png)](https://youtu.be/oI1bb07eZ9s)
+
 ## 1. Creating a scene
 
 [1_creating_a_scene/](threejsmanual/1_creating_a_scene/) · [manual](https://threejs.org/manual/#creating-a-scene)

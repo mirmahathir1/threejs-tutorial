@@ -1,5 +1,6 @@
 // Creating Text: 5. Procedural Text Geometry
 // Source: https://threejs.org/manual/#creating-text
+// Local: http://localhost:5173/threejsmanual/2_creating_text/
 //
 // If you prefer to work purely in THREE.js or to create procedural and dynamic
 // 3D text geometries, you can create a mesh whose geometry is an instance of

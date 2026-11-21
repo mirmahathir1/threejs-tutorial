@@ -1,5 +1,6 @@
 // Creating a scene
 // Source: https://threejs.org/manual/#creating-a-scene
+// Local: http://localhost:5173/threejsmanual/1_creating_a_scene/
 //
 // The goal of this section is to give a brief introduction to three.js. We will
 // start by setting up a scene, with a spinning cube.

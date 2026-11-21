@@ -1,5 +1,6 @@
 // How to dispose of objects
 // Source: https://threejs.org/manual/#how-to-dispose-of-objects
+// Local: http://localhost:5173/threejsmanual/7_how_to_dispose_of_objects/
 //
 // One important aspect in order to improve performance and avoid memory leaks
 // in your application is the disposal of unused library entities. Whenever you

@@ -1,5 +1,6 @@
 // Color Management
 // Source: https://threejs.org/manual/#color-management
+// Local: http://localhost:5173/threejsmanual/6_color_management/
 //
 // What is a color space?
 //

@@ -1,5 +1,6 @@
 // Drawing Lines
 // Source: https://threejs.org/manual/#drawing-lines
+// Local: http://localhost:5173/threejsmanual/3_drawing_lines/
 //
 // Let's say you want to draw a line or a circle, not a wireframe Mesh. First we
 // need to set up the renderer, scene and camera (see the Creating a scene page).

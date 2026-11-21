@@ -1,5 +1,6 @@
 // Animation System
 // Source: https://threejs.org/manual/#animation-system
+// Local: http://localhost:5173/threejsmanual/5_animation_system/
 //
 // Overview
 //

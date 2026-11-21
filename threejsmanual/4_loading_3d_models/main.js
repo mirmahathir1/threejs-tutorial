@@ -1,5 +1,6 @@
 // Loading 3D Models
 // Source: https://threejs.org/manual/#loading-3d-models
+// Local: http://localhost:5173/threejsmanual/4_loading_3d_models/
 //
 // 3D models are available in hundreds of file formats, each with different
 // purposes, assorted features, and varying complexity. Although three.js

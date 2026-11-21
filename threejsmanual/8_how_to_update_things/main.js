@@ -1,5 +1,6 @@
 // How to update Things
 // Source: https://threejs.org/manual/#how-to-update-things
+// Local: http://localhost:5173/threejsmanual/8_how_to_update_things/
 //
 // All objects by default automatically update their matrices if they have been
 // added to the scene with

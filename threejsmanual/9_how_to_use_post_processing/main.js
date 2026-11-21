@@ -1,5 +1,6 @@
 // How to use Post Processing
 // Source: https://threejs.org/manual/#how-to-use-post-processing
+// Local: http://localhost:5173/threejsmanual/9_how_to_use_post_processing/
 //
 // Many three.js applications render their 3D objects directly to the screen.
 // Sometimes, however, you want to apply one or more graphical effects like

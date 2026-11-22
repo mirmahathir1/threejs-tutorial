@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <title>Textures - Loading Multiple Textures</title>
+    <style>
+      html, body {
+        height: 100%;
+        margin: 0;
+      }
+      #c {
+        width: 100%;
+        height: 100%;
+        display: block;
+      }
+      /* and the CSS for it */
+      #loading {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      #loading .progress {
+        margin: 1.5em;
+        border: 1px solid white;
+        width: 50vw;
+      }
+      #loading .progressbar {
+        margin: 2px;
+        background: white;
+        height: 1em;
+        transform-origin: top left;
+        transform: scaleX(0);
+      }
+    </style>
+  </head>
+  <body>
+    <canvas id="c"></canvas>
+    <!-- First we'll add a progress bar in HTML -->
+    <div id="loading">
+      <div class="progress"><div class="progressbar"></div></div>
+    </div>
+    <script type="module" src="./main.js"></script>
+  </body>
+</html>

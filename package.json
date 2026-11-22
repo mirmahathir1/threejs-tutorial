@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "split.js": "^1.6.5",
     "three": "^0.187.0"
   },
   "devDependencies": {

@@ -82,3 +82,15 @@ https://github.com/user-attachments/assets/f51d5981-c7c7-46e5-b63b-dad456fe4327
 [18_cameras/1_perspective_camera/](threejsmanual/18_cameras/1_perspective_camera/) · [manual](https://threejs.org/manual/#cameras)
 
 https://github.com/user-attachments/assets/28f3b022-d0ab-406b-908b-0bf842bf226b
+
+## 18. Cameras — Z fighting
+
+[18_cameras/2_z_fighting/](threejsmanual/18_cameras/2_z_fighting/) · [manual](https://threejs.org/manual/#cameras)
+
+![Z fighting](threejsmanual/18_cameras/2_z_fighting/2_z_fighting.png)
+
+## 18. Cameras — Orthographic camera
+
+[18_cameras/3_orthographic_camera/](threejsmanual/18_cameras/3_orthographic_camera/) · [manual](https://threejs.org/manual/#cameras)
+
+<!-- drop 3_orthographic_camera.mp4 here -->

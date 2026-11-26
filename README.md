@@ -1,3 +1,6 @@
+
+
+
 # three.js tutorial
 
 My demos follow the [three.js manual](https://threejs.org/manual/). 
@@ -78,4 +81,4 @@ https://github.com/user-attachments/assets/f51d5981-c7c7-46e5-b63b-dad456fe4327
 
 [18_cameras/1_perspective_camera/](threejsmanual/18_cameras/1_perspective_camera/) · [manual](https://threejs.org/manual/#cameras)
 
-<!-- drop 1_perspective_camera.mp4 here -->
+https://github.com/user-attachments/assets/28f3b022-d0ab-406b-908b-0bf842bf226b

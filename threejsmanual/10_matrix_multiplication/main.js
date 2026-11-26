@@ -26,6 +26,7 @@ const object1 = new THREE.Mesh( geometry, material );
 const object2 = new THREE.Mesh( geometry, material );
 scene.add( object1, object2 );
 
+
 const start_position1 = new THREE.Vector3( - 1.5, 0, 0 );
 const start_position2 = new THREE.Vector3( 1.5, 0, 0 );
 const axis = new THREE.Vector3( 1, 1, 0 ).normalize();

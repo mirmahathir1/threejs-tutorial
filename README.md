@@ -93,4 +93,5 @@ https://github.com/user-attachments/assets/28f3b022-d0ab-406b-908b-0bf842bf226b
 
 [18_cameras/3_orthographic_camera/](threejsmanual/18_cameras/3_orthographic_camera/) · [manual](https://threejs.org/manual/#cameras)
 
-<!-- drop 3_orthographic_camera.mp4 here -->
+https://github.com/user-attachments/assets/dc8d8b9f-77bd-4178-919a-bcaa41123dbd
+

@@ -112,4 +112,4 @@ https://github.com/user-attachments/assets/bfb1f2ec-03d3-4f8c-8c67-bd312b0145b2
 
 [19_shadows/3_point_light_shadow_in_box/](threejsmanual/19_shadows/3_point_light_shadow_in_box/) · [manual](https://threejs.org/manual/#shadows)
 
-<!-- drop 3_point_light_shadow_in_box.mp4 here -->
+https://github.com/user-attachments/assets/fd17633f-aa7a-49c4-a52e-78c5198a54ef

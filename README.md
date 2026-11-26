@@ -95,3 +95,9 @@ https://github.com/user-attachments/assets/28f3b022-d0ab-406b-908b-0bf842bf226b
 
 https://github.com/user-attachments/assets/dc8d8b9f-77bd-4178-919a-bcaa41123dbd
 
+
+## 19. Shadows — Fake shadow
+
+[19_shadows/1_fake_shadow/](threejsmanual/19_shadows/1_fake_shadow/) · [manual](https://threejs.org/manual/#shadows)
+
+<!-- drop 1_fake_shadow.mp4 here -->

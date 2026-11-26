@@ -73,3 +73,9 @@ https://github.com/user-attachments/assets/6d667cde-311e-4da4-9574-c083d7dd23da
 [17_lights/4_point_light/](threejsmanual/17_lights/4_point_light/) · [manual](https://threejs.org/manual/#lights)
 
 https://github.com/user-attachments/assets/f51d5981-c7c7-46e5-b63b-dad456fe4327
+
+## 18. Cameras — Perspective camera
+
+[18_cameras/1_perspective_camera/](threejsmanual/18_cameras/1_perspective_camera/) · [manual](https://threejs.org/manual/#cameras)
+
+<!-- drop 1_perspective_camera.mp4 here -->

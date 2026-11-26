@@ -62,7 +62,14 @@ https://github.com/user-attachments/assets/cf4be4df-3f81-4f43-9bd4-11ed844fc96e
 
 https://github.com/user-attachments/assets/65b3932d-0647-4f9e-8e46-36dac74360f2
 
+## 14. Scenegraph — Tank
 
+[14_scenegraph/7_tank/](threejsmanual/14_scenegraph/7_tank/) · [manual](https://threejs.org/manual/#scenegraph)
 
+<!-- drop 7_tank.mp4 here -->
 
+## 17. Lights — Point light
 
+[17_lights/4_point_light/](threejsmanual/17_lights/4_point_light/) · [manual](https://threejs.org/manual/#lights)
+
+<!-- drop 4_point_light.mp4 here -->

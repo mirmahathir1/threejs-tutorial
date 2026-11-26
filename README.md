@@ -113,3 +113,9 @@ https://github.com/user-attachments/assets/bfb1f2ec-03d3-4f8c-8c67-bd312b0145b2
 [19_shadows/3_point_light_shadow_in_box/](threejsmanual/19_shadows/3_point_light_shadow_in_box/) · [manual](https://threejs.org/manual/#shadows)
 
 https://github.com/user-attachments/assets/fd17633f-aa7a-49c4-a52e-78c5198a54ef
+
+## 20. Fog — Fog with near and far
+
+[20_fog/3_fog_with_far_and_near/](threejsmanual/20_fog/3_fog_with_far_and_near/) · [manual](https://threejs.org/manual/#fog)
+
+<!-- drop 3_fog_with_far_and_near.mp4 here -->

@@ -100,4 +100,4 @@ https://github.com/user-attachments/assets/dc8d8b9f-77bd-4178-919a-bcaa41123dbd
 
 [19_shadows/1_fake_shadow/](threejsmanual/19_shadows/1_fake_shadow/) · [manual](https://threejs.org/manual/#shadows)
 
-<!-- drop 1_fake_shadow.mp4 here -->
+https://github.com/user-attachments/assets/bfb1f2ec-03d3-4f8c-8c67-bd312b0145b2

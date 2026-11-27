@@ -124,4 +124,4 @@ https://github.com/user-attachments/assets/f885693f-34ac-459d-a4c1-a2722ab4ed87
 
 [22_custom_buffergeometry/3_expanding_sphere/](threejsmanual/22_custom_buffergeometry/3_expanding_sphere/) · [manual](https://threejs.org/manual/#custom-buffergeometry)
 
-<!-- drop 3_expanding_sphere.mp4 here -->
+https://github.com/user-attachments/assets/0c3bdef7-f084-4dc0-9609-12df7e38a4d1

@@ -119,3 +119,9 @@ https://github.com/user-attachments/assets/fd17633f-aa7a-49c4-a52e-78c5198a54ef
 [20_fog/3_fog_with_far_and_near/](threejsmanual/20_fog/3_fog_with_far_and_near/) · [manual](https://threejs.org/manual/#fog)
 
 https://github.com/user-attachments/assets/f885693f-34ac-459d-a4c1-a2722ab4ed87
+
+## 22. Custom BufferGeometry — Expanding sphere
+
+[22_custom_buffergeometry/3_expanding_sphere/](threejsmanual/22_custom_buffergeometry/3_expanding_sphere/) · [manual](https://threejs.org/manual/#custom-buffergeometry)
+
+<!-- drop 3_expanding_sphere.mp4 here -->
